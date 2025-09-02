@@ -1,0 +1,12 @@
+{
+  "id": "08e99f45c76b4b97be615a21871b74ac",
+  "original_filename": "bilgee.txt",
+  "content_type": null,
+  "bytes_in": 20,
+  "bytes_out": 32,
+  "iv_b64": "ZFUzMG3nZsDWBPkmhRMvuw==",
+  "hmac_b64": "V2LvJ6PCPdaJyWWx9Fb2ZFkjqRx3qxA6KvNFcXz7Mm4=",
+  "created_at": "2025-09-01T06:10:58.512891Z",
+  "enc_path": "/Users/b/Work/file-server/data/encrypted/08e99f45c76b4b97be615a21871b74ac.enc",
+  "key_fp": "9f7d0e47965d6c98"
+}

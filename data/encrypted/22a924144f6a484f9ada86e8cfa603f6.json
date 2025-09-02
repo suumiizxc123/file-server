@@ -1,0 +1,12 @@
+{
+  "id": "22a924144f6a484f9ada86e8cfa603f6",
+  "original_filename": "bilgee.zip",
+  "content_type": null,
+  "bytes_in": 10679630,
+  "bytes_out": 10679632,
+  "iv_b64": "GCuo7f658k39wawQVFax5g==",
+  "hmac_b64": "Gn_d6-VL1mzFekbdsbVwOMg1VMH0KiZp7-k7EDokUFU=",
+  "created_at": "2025-09-01T06:10:58.600602Z",
+  "enc_path": "/Users/b/Work/file-server/data/encrypted/22a924144f6a484f9ada86e8cfa603f6.enc",
+  "key_fp": "9f7d0e47965d6c98"
+}
