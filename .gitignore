@@ -1,0 +1,33 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+
+# Environments
+env/
+venv/
+.venv/
+
+# Logs and caches
+*.log
+.mypy_cache/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
+
+# Project data (binary/large/generated)
+data/
+example/input/big_200mb.txt
+example/output/
+
+# Encrypted artifacts
+data/encrypted/
+
+# Env files
+.env
+

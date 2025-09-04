@@ -9,7 +9,7 @@ import streamlit as st
 
 
 def get_api_base() -> str:
-    val = st.session_state.get("api_base") or os.environ.get("API_BASE", "http://127.0.0.1:8000")
+    val = st.session_state.get("api_base") or os.environ.get("API_BASE", "https://70e906abe79d.ngrok-free.app")
     return val.rstrip("/")
 
 
@@ -229,7 +229,7 @@ def main():
     with st.sidebar:
         # Initialize default before creating widget to avoid Streamlit mutation error
         if "api_base" not in st.session_state:
-            st.session_state.api_base = os.environ.get("API_BASE", "http://127.0.0.1:8000").rstrip("/")
+            st.session_state.api_base = os.environ.get("API_BASE", "https://70e906abe79d.ngrok-free.app").rstrip("/")
         st.text_input("API base URL", key="api_base")
         st.caption("Change to match where the FastAPI server is running.")
 
